@@ -150,12 +150,15 @@ activemq-data/
 # Environments
 .env
 .envrc
+.env.local
 .venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+conda-meta/
+.conda/
 
 # Spyder project settings
 .spyderproject
@@ -216,3 +219,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+
+# Uploads
+backend/uploads/
